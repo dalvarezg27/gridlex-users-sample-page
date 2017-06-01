@@ -1,0 +1,197 @@
+/*General*/
+body {
+  margin: 0;
+  font: 400 100%/1.4 "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #262e33;
+  font-weight: 300;
+  background: #f7f9fc; }
+
+* {
+  box-sizing: border-box; }
+
+*::after, *::before {
+  box-sizing: border-box; }
+
+h1 {
+  font-size: 2rem; }
+
+h2 {
+  font-size: 1.4rem;
+  color: steelblue; }
+
+h3 {
+  font-size: 1.1rem; }
+
+p {
+  font-size: 0.9rem; }
+
+ul {
+  padding: 0;
+  list-style: none; }
+
+li {
+  font-size: 0.9rem;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+/*Header-Top-Menu*/
+header {
+  color: #fff;
+  background-color: #42525c;
+  height: 100px;
+  border-bottom: 2px solid #3b4951; }
+
+.togle-menu {
+  padding: 5px 1rem 13px;
+  border-right: 1px solid #666; }
+
+.icon-bar {
+  display: block;
+  border-bottom: 2px solid #fff;
+  width: 20px;
+  padding-bottom: 6px; }
+
+h1 {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 300;
+  padding: 0px 1rem; }
+
+.secundary-header-menu icon {
+  color: #fff;
+  font-size: 1rem;
+  padding-right: 3rem; }
+
+.secundary-header-menu .alert-mensage:before {
+  content: '7';
+  position: absolute;
+  width: 14px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 10px;
+  background-color: #ca007b;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: -5px; }
+
+/*Tabs*/
+.tabs {
+  color: #99b0c2;
+  background-color: #4e616d; }
+  .tabs li {
+    display: inline-block;
+    float: left; }
+    .tabs li a {
+      padding: 26px;
+      border-bottom: 2px solid #4e616d;
+      color: #99b0c2;
+      display: inline-block;
+      margin-top: -2px; }
+    .tabs li .tab-active {
+      color: #fff;
+      border-bottom: 4px solid #00d2d2; }
+
+/*Data-chart*/
+.data-chart ul {
+  padding: 20px 0px; }
+  .data-chart ul li {
+    padding: 10px 0px;
+    border-bottom: 2px solid #00d2d2;
+    text-align: center;
+    width: 10%; }
+    .data-chart ul li .data {
+      font-size: 0,9rem; }
+    .data-chart ul li .data-class {
+      font-size: 0.7rem; }
+
+.data-chart .chart-disable {
+  color: #c8d3dc;
+  border-color: #d5e2ec; }
+
+/*Filters*/
+.filters {
+  color: #99b0c2; }
+  .filters div {
+    margin-left: 1rem;
+    display: inline-block; }
+    .filters div p {
+      display: inline-block;
+      color: #99b0c2;
+      font-size: 0.8rem; }
+    .filters div label {
+      background-color: #fff;
+      display: inline-block; }
+    .filters div select {
+      padding: 10px;
+      border: 1px solid #CDD4DE;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      border-radius: 4px;
+      background: #FFF;
+      color: #aeb8c5;
+      outline: none;
+      display: inline-block;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      cursor: pointer;
+      background-color: #fff; }
+    .filters div .sort-by {
+      padding: 10px 70px 10px 10px;
+      background: url(../img/bg-select.jpg) no-repeat right center; }
+
+/*User Resume*/
+.resume-user {
+  background: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #e8edf5;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  height: 95px;
+  margin: 15px 0px;
+  -webkit-box-shadow: 0px 2px 5px 1px rgba(224, 224, 224, 0);
+  -moz-box-shadow: 0px 2px 5px 1px rgba(224, 224, 224, 0);
+  box-shadow: 0px 2px 5px 1px rgba(224, 224, 224, 0);
+  cursor: pointer; }
+  .resume-user .user-data-rating {
+    margin-left: 1rem; }
+    .resume-user .user-data-rating icon {
+      color: #bcd0e0;
+      padding: 5px; }
+    .resume-user .user-data-rating .rating-active {
+      color: #00d2d2; }
+  .resume-user .user-data-avatar {
+    text-align: center; }
+    .resume-user .user-data-avatar img {
+      max-width: 60px;
+      max-height: 60px; }
+  .resume-user h2 {
+    color: #3a4145;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: left; }
+  .resume-user .user-data-location {
+    text-align: center;
+    color: #597489; }
+  .resume-user .user-data-last-visit {
+    text-align: center;
+    color: #597489; }
+  .resume-user:hover {
+    -webkit-box-shadow: 0px 2px 5px 1px rgba(224, 224, 224, 0.5);
+    -moz-box-shadow: 0px 2px 5px 1px rgba(224, 224, 224, 0.5);
+    box-shadow: 0px 2px 5px 1px rgba(224, 224, 224, 0.5);
+    border-color: #ca007b; }
